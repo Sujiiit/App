@@ -1,0 +1,155 @@
+
+body{
+  background-color: yellow;
+}
+.whole {
+  max-width: 300px;
+  min-width: 250px;
+  background-color: #e5e5e5;
+  margin: auto;
+}
+.upper {
+  background-color: #00b4d8;
+  height: 130px;
+  border-radius: 0 0px 150px 150px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.login {
+  font-size: 23px;
+  margin: -10px 15px;
+  color: #023e8a;
+}
+.content {
+  margin: 10%;
+}
+.inputbox {
+  height: 40px;
+  width: 200px;
+  border-width: 0px;
+  background-color: #00b4d8;
+  border-radius: 25px;
+  margin: 11px 5px;
+  color: white;
+  font-size: 15px;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+  font-size: 17px;
+}
+.forget {
+  margin-left: 60px;
+  color: #00b4d8;
+  cursor: poiner;
+}
+#submit {
+  width: 140px;
+  margin-left: 60px;
+  background-color: #fca311;
+}
+.newaccount {
+  font-size: 13px;
+  margin: 40px;
+  color: #00b4d8;
+}
+/* sign In page finished */
+
+.sign{
+  text-align: center;
+  min-height: 400px;
+  min-width: 250px;
+ max-width: 300px;
+ background-color: white; 
+}
+.signname, .typehead{
+  font-size: 23px;
+  margin: -2px ;
+  color: #a100f2;
+}
+.inputsign{
+  width: 200px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin: 10px 0;
+  color: #a100f2;
+  font-size: 15px;
+  padding-bottom: 12px;
+}
+ ::placeholder {
+   color: #8d99ae;
+   opacity: 0.8;
+   font-size: 15px;
+}
+.submit{
+  width: 160px;
+  margin: 8px auto ;
+  background-color: #a100f2;
+  height: 33px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  font-size: 17px;
+  display: block;
+}
+.signlink{
+  margin: 10px;
+  color: black;
+  opacity: 0.5;
+  font-size: 12px;
+  display: block;
+}
+/* type of user */
+.typepage{
+  text-align: center;
+  min-height: 400px;
+  min-width: 250px;
+  max-width: 300px;
+  background-color: white; 
+}
+.typephead{
+  padding: 8px 0px;
+}
+#typeuser{
+  height: 40px;
+  width: 200px;
+  border: none;
+  background-color: #a100f2;
+  border-radius: 25px;
+  margin: 20px ;
+  color: white;
+  font-size: 15px;
+}
+.pic{
+  width: 75px;
+  margin: 20px 0 0px 0;
+}
+
+.number-wrapper {
+  position: relative;
+}
+
+.number-wrapper:after,
+.number-wrapper:before {
+  /* position: absolute; */
+  right: 5px;
+  width: 1.6em;
+  height: .9em;
+  font-size: 10px;
+  pointer-events: none;
+  background: #fff;
+}
+
+.number-wrapper:after {
+  color: blue;
+  content: "\25B2";
+  margin-top: 1px;
+}
+
+.number-wrapper:before {
+  color: red;
+  content: "\25BC";
+  margin-bottom: 5px;
+  bottom: -.5em;
+}
